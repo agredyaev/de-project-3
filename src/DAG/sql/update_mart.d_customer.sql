@@ -1,3 +1,5 @@
+truncate table mart.d_customer;
+
 insert into
     mart.d_customer (customer_id, first_name, last_name, city_id)
 select

@@ -1,3 +1,5 @@
+truncate table mart.d_city;
+
 insert into
     mart.d_city (city_id, city_name)
 select

@@ -1,3 +1,5 @@
+truncate table mart.d_item;
+
 insert into
     mart.d_item (item_id, item_name)
 select
