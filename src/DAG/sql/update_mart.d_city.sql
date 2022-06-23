@@ -1,4 +1,4 @@
-truncate table mart.d_city;
+truncate table mart.d_city CASCADE;
 
 insert into
     mart.d_city (city_id, city_name)

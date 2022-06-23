@@ -1,4 +1,4 @@
-truncate table mart.d_item;
+truncate table mart.d_item CASCADE;
 
 insert into
     mart.d_item (item_id, item_name)

@@ -1,5 +1,5 @@
 """
-Dag designed to generate customer retention report\n
+Dag is designed to generate customer retention report\n
 \n
 1. request API of report generation\n
 2. push given report id to xcom\n

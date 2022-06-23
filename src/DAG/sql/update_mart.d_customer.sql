@@ -1,4 +1,4 @@
-truncate table mart.d_customer;
+truncate table mart.d_customer CASCADE;
 
 insert into
     mart.d_customer (customer_id, first_name, last_name, city_id)
